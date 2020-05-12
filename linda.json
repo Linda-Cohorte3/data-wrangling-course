@@ -1,0 +1,138 @@
+{
+    "name": "Gender_inequality_in_economic_activity",
+    "title": "Gender inequality in economic activity",
+    "fields": [
+
+        {
+            "name": "HDI_rank",
+            "title": "HDI rank",
+            "type": "Integer",
+            "description": "Classement de chaque pays selon l'indice de développement humain (IDH))."
+        },
+        {
+            "name": "Countries",
+            "title": "Countries",
+            "type": "String",
+            "description": "Les 177 des pays membres des nations unies pour lesquels les indices de developpement humain ont pu etre calculés  ."
+        },
+        {
+            "name": "FEA_Rate_%_2005",
+            "title": "Female economic activity rate (%)(aged 15 and older) 2005",
+            "type": "Number",
+            "description": "Activité économique féminine (15 ans et plus) Taux (%) 2005.",
+			"constraints": {
+				"minimum":0,
+				"maximum":100
+		}
+        },
+        {
+            "name": "FEA_Index (1990=100) 2005",
+            "title": "Female economic activity Index (aged 15 and older) (1990=100) 2005",
+            "type": "number",
+            "description": "Indice d'activité économique féminine (15 ans et plus) (1990 = 100) 2005."
+        },
+		{
+            "name": "FEA_%_male_rate 2005",
+            "title": "Female economic activity as % of male rate 2005(aged 15 and older)",
+            "type": "number",
+            "description": "Emploi par activité économique La part en pourcentage de l'emploi par activité économique peut ne pas correspondre à 100 en raison de l'arrondissement ou de l'omission d'activités non classifiées (%) Agriculture Femmes1995-2005 Les données se réfèrent à l'année la plus récente disponible pendant la période spécifiée.",
+			"constraints":{
+				"minimum":0,
+				"maximum":100
+			}
+	   },
+	
+        {
+            "name": "EEA_%_Agri_Women 1995-2005b",
+            "title": "Emploi par activité économique en % chez les femmes 1995-2005b",
+            "type": "Integer",
+            "description": " Emploi par activité économique La part en pourcentage de l'emploi par activité économique peut ne pas correspondre à 100 en raison de l'arrondissement ou de l'omission d'activités non classifiées (%) Agriculture Femmes1995-2005 Les données se réfèrent à l'année la plus récente disponible pendant la période spécifiée.",
+			"constraints":{
+				"minimum":0,
+				"maximum":100
+			}
+		},
+		{
+            "name": "EEA_%_Agri_Men 1995-2005b",
+            "title": "Employment by economic activity (%) Agriculture Men 1995-2005b",
+            "type": "number",
+            "description": "Emploi par activité économique Le pourcentage de l'emploi par activité économique peut ne pas correspondre à 100 en raison de l'arrondissement ou de l'omission d'activités non classées (%) Agriculture Hommes 1995-2005 Les données se réfèrent à l'année la plus récente disponible pendant la période spécifiée.",
+			"constraints":{
+				"minimum":0,
+				"maximum":100
+			}
+		},
+        {
+            "name": "EEA_%_Ind_Women 1995-2005b",
+            "title": "Employment by economic activity (%) Industry Women 1995-2005b",
+            "type": "number",
+            "description": "Emploi par activité économique La part en pourcentage de l'emploi par activité économique peut ne pas correspondre à 100 en raison de l'arrondissement ou de l'omission d'activités non classées. (%) Industrie Femmes 1995-2005 Les données se réfèrent à la dernière année disponible pendant la période spécifiée.",
+			"constraints":{
+				"minimum":0,
+				"maximum":100
+			}
+		},
+        {
+            "name": "EEA_%_Ind_Men 1995-2005b",
+            "title": "Employment by economic activity (%) Industry Men 1995-2005b",
+            "type": "number",
+            "description": "Emploi par activité économique Le pourcentage de l'emploi par activité économique peut ne pas correspondre à 100 en raison de l'arrondissement ou de l'omission d'activités non classées. (%) Industrie Hommes 1995-2005 Les données se réfèrent à l'année la plus récente disponible pendant la période spécifiée.",
+				"constraints":{
+				"minimum":0,
+				"maximum":100
+			}
+	   },
+        {
+            "name": "EEA_%_Ser_Women 1995-2005b",
+            "title": "Employment by economic activity (%) Service Women 1995-2005b",
+            "type": "number",
+            "description": "Emploi par activité économique Le pourcentage de l'emploi par activité économique peut ne pas correspondre à 100 en raison de l'arrondissement ou de l'omission d'activités non classées. (%) Services Femmes 1995-2005 Les données se réfèrent à l'année la plus récente disponible pendant la période spécifiée.",
+			"constraints":{
+				"minimum":0,
+				"maximum":100
+			}
+	   },
+		{
+            "name": "EEA_%_Ser_Men 1995-2005b",
+            "title": "Employment by economic activity (%) Service Men 1995-2005b",
+            "type": "number",
+            "description": "Emploi par activité économique Le pourcentage de l'emploi par activité économique peut ne pas correspondre à 100 en raison de l'arrondissement ou de l'omission d'activités non classées. (%) Services Hommes 1995-2005 Les données se réfèrent à l'année la plus récente disponible pendant la période spécifiée.",
+			"constraints":{
+				"minimum":0,
+				"maximum":100
+			}
+		},
+        {
+            "name": "CFW_%_Women 1995-2005b",
+            "title": "Contributing family workers (%) Women 1995-2005b",
+            "type": "number",
+            "description": "Travailleurs familiaux cotisants (%) Femmes 1995-2005 Les données se réfèrent à la dernière année disponible pendant la période spécifiée.",
+			"constraints":{
+				"minimum":0,
+				"maximum":100
+			}
+	   },
+		{
+            "name": "CFW_%_Men 1995-2005b",
+            "title": "Contributing family workers Men 1995-2005b",
+            "type": "number",
+            "description": "Travailleurs familiaux cotisants (%) Hommes 1995-2005 Les données se réfèrent à la dernière année disponible pendant la période spécifiée.",
+			"constraints":{
+				"minimum":0,
+				"maximum":100
+			}
+	   },
+		{
+            "name": "HDI_category",
+            "title": "HDI category",
+            "type": "string",
+            "description": "Niveau de l'indice de développement humain de chaque pays.",
+			"constraints": {
+                "enum": ["HIGH HUMAN DEVELOPMENT", "MEDIUM HUMAN DEVELOPMENT", "LOW HUMAN DEVELOPMENT"]
+				}
+        }
+		],
+	"missingValues": [".."]
+		
+ 
+ }
